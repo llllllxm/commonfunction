@@ -1,0 +1,21 @@
+{
+    "name": "zmhit/common_tool",
+    "description": "common function to use",
+    "type": "l",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "渐渐不单单",
+            "email": "wsas845@foxmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4":{
+            "Tool\\":"src/Tool"
+        }
+    }
+}
